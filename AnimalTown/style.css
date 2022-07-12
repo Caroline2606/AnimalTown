@@ -1,0 +1,348 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    font-size: 30px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+#orange_paint {
+    position: absolute;
+    top: 230px;
+    margin: 10px;
+    width: 550px;
+    height: 100px;
+}
+
+#naglowek {
+    position: absolute;
+    top: 255px;
+    right: 100px;
+    font-size: 30px;
+}
+
+#charity {
+    position: absolute;
+    top: 230px;
+    right: 70px;
+    width: 500px;
+    height: 100px;
+}
+
+#header {
+    background-image: url("Grafika/start_monkey.jpg");
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: 700px;
+}
+
+#h1 {
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    font-size: 50px;
+}
+
+#section_mammals {
+    /* border: solid 4px black; */
+    height: 430px;
+}
+
+#section_birds {
+    /* border: solid 4px black; */
+    height: 430px;
+}
+
+#section_fish {
+    /* border: solid 4px black; */
+    height: 430px;
+}
+
+#section_amphibians {
+    /* border: solid 4px black; */
+    height: 430px;
+}
+
+#section_reptiles {
+    /* border: solid 4px black; */
+    height: 430px;
+}
+
+#section_charity {
+    /* border: solid 4px black; */
+    height: 430px;
+}
+
+#mammals {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 26px;
+    left: 26px;
+    float: left;
+    background-image: url("Grafika/icon_mammals.jpg");
+    background-size: cover;
+}
+
+#mammals_animation {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    left: 180px;
+    background-color: lightcoral;
+    animation-name: mammals_ani;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#opis_mammals {
+    position: absolute;
+    top: 800px;
+    right: 200px;
+    width: 400px;
+    height: 400px;
+}
+
+@keyframes mammals_ani {
+    0% {background-color: #D3D3D3}
+    25% {background-color: #B0C4DE}
+    50% {background-color: #C0C0C0}
+    75% {background-color: #808080}
+    100% {background-color: #DCDCDC}
+}
+
+#birds {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 26px;
+    left: 26px;
+    float: right;
+    background-image: url("Grafika/icon_birds.jpg");
+    background-size: cover;
+}
+
+#birds_animation {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    right: 180px;
+    float: right;
+    background-color: lightcoral;
+    animation-name: birds_ani;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#opis_birds {
+    position: absolute;
+    top: 1200px;
+    left: 200px;
+    width: 400px;
+    height: 400px;
+}
+
+@keyframes birds_ani {
+    0% {background-color: #D3D3D3}
+    25% {background-color: #B0C4DE}
+    50% {background-color: #C0C0C0}
+    75% {background-color: #808080}
+    100% {background-color: #DCDCDC}
+}
+
+#fish {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 26px;
+    left: 26px;
+    float: left;
+    background-image: url("Grafika/icon_fish.jpg");
+    background-size: cover;
+}
+
+#fish_animation {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    left: 180px;
+    float: left;
+    background-color: lightcoral;
+    animation-name: fish_ani;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#opis_fish {
+    position: absolute;
+    top: 1600px;
+    right: 200px;
+    width: 400px;
+    height: 400px;
+}
+
+@keyframes fish_ani {
+    0% {background-color: #D3D3D3}
+    25% {background-color: #B0C4DE}
+    50% {background-color: #C0C0C0}
+    75% {background-color: #808080}
+    100% {background-color: #DCDCDC}
+}
+
+#amphibians {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 26px;
+    left: 26px;
+    float: right;
+    background-image: url("Grafika/icon_amphibians.jpg");
+    background-size: cover;
+}
+
+#amphibians_animation {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    right: 180px;
+    float: right;
+    background-color: lightcoral;
+    animation-name: amphibians_ani;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#opis_amphibians {
+    position: absolute;
+    top: 2100px;
+    left: 200px;
+    width: 400px;
+    height: 400px;
+}
+
+@keyframes amphibians_ani {
+    0% {background-color: #D3D3D3}
+    25% {background-color: #B0C4DE}
+    50% {background-color: #C0C0C0}
+    75% {background-color: #808080}
+    100% {background-color: #DCDCDC}
+}
+
+#reptiles {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 26px;
+    left: 26px;
+    float: left;
+    background-image: url("Grafika/icon_reptiles.jpg");
+    background-size: cover;
+}
+
+#reptiles_animation {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    left: 180px;
+    float: left;
+    background-color: lightcoral;
+    animation-name: reptiles_ani;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#opis_reptiles {
+    position: absolute;
+    top: 2500px;
+    right: 200px;
+    width: 400px;
+    height: 400px;
+}
+
+@keyframes reptiles_ani {
+    0% {background-color: #D3D3D3}
+    25% {background-color: #B0C4DE}
+    50% {background-color: #C0C0C0}
+    75% {background-color: #808080}
+    100% {background-color: #DCDCDC}
+}
+
+#charity {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 26px;
+    left: 26px;
+    float: right;
+    background-image: url("Grafika/icon_charity.jpg");
+    background-size: cover;
+}
+
+#charity_animation {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    right: 180px;
+    float: right;
+    background-color: lightcoral;
+    animation-name: charity_ani;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes charity_ani {
+    0% {background-color: #D3D3D3}
+    25% {background-color: #B0C4DE}
+    50% {background-color: #C0C0C0}
+    75% {background-color: #808080}
+    100% {background-color: #DCDCDC}
+}
+
+#opis_charity {
+    position: absolute;
+    top: 2900px;
+    left: 200px;
+    width: 400px;
+    height: 400px;
+}
+
+#opis {
+    position: absolute;
+    top: 70px;
+    right: 90px;
+    width: 420px;
+    height: 450px;
+}
+
+#p {
+    position: absolute;
+    top: 200px;
+    right: 110px;
+    font-size: 20px;
+    width: 370px;
+    height: 350px;
+    text-align: justify;
+}

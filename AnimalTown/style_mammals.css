@@ -1,0 +1,138 @@
+body {
+    background-image: url("Grafika/Mapa4.jpg");
+    background-size: cover;
+    text-align: justify;
+}
+
+#wisent {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    background-image: url("Grafika/wisent.jpg");
+    background-size: cover;
+}
+
+#panel_wisent {
+    position: absolute;
+    top: 253px;
+    left: 650px;
+    padding: 5px;
+    width: 250px;
+    height: 110px;
+    background-color: lightgray;
+    display: none;
+    word-spacing: -2px;
+}
+
+#tiger {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 180px;
+    right: 380px;
+    background-image: url("Grafika/tiger.jpg");
+    background-size: cover;
+}
+
+#panel_tiger {
+    position: absolute;
+    top: 180px;
+    right: 100px;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    background-color: lightgray;
+    display: none;
+}
+
+#lion {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 220px;
+    left: 730px;
+    background-image: url("Grafika/lion.jpg");
+    background-size: cover;
+}
+
+#panel_lion {
+    position: absolute;
+    top: 540px;
+    left: 680px;
+    padding: 5px;
+    width: 200px;
+    height: 180px;
+    background-color: lightgray;
+    display: none;
+}
+
+#sloth {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 100px;
+    left: 350px;
+    background-image: url("Grafika/sloth.jpg");
+    background-size: cover;
+}
+
+#panel_sloth {
+    position: absolute;
+    top: 530px;
+    left: 100px;
+    padding: 5px;
+    width: 200px;
+    height: 170px;
+    background-color: lightgray;
+    display: none;
+}
+
+#kangaroo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 50px;
+    right: 200px;
+    background-image: url("Grafika/kangaroo.jpg");
+    background-size: cover;
+}
+
+#panel_kangaroo {
+    position: absolute;
+    top: 530px;
+    right: 350px;
+    padding: 5px;
+    width: 200px;
+    height: 170px;
+    background-color: lightgray;
+    display: none;
+}
+
+#puma {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    background-image: url("Grafika/puma.jpg");
+    background-size: cover;
+}
+
+#panel_puma {
+    position: absolute;
+    top: 160px;
+    left: 400px;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    background-color: lightgray;
+    display: none;
+}

@@ -1,0 +1,139 @@
+body {
+    background-image: url("Grafika/Mapa4.jpg");
+    background-size: cover;
+    text-align: justify;
+}
+
+#labraks {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    background-image: url("Grafika/labraks.jpg");
+    background-size: 150px 130px;
+}
+
+#panel_labraks {
+    position: absolute;
+    top: 253px;
+    left: 650px;
+    padding: 5px;
+    width: 250px;
+    height: 110px;
+    background-color: lightgray;
+    display: none;
+    word-spacing: -2px;
+}
+
+#sum {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 180px;
+    right: 380px;
+    background-image: url("Grafika/catfish.jpg");
+    background-size: cover;
+}
+
+#panel_sum {
+    position: absolute;
+    top: 180px;
+    right: 100px;
+    padding: 5px;
+    width: 200px;
+    height: 160px;
+    background-color: lightgray;
+    display: none;
+}
+
+#shark {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 220px;
+    left: 730px;
+    background-image: url("Grafika/shark.jpg");
+    background-size: cover;
+}
+
+#panel_shark {
+    position: absolute;
+    top: 540px;
+    left: 680px;
+    padding: 5px;
+    width: 200px;
+    height: 160px;
+    background-color: lightgray;
+    display: none;
+}
+
+#manta {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 100px;
+    left: 350px;
+    background-image: url("Grafika/manta.jpg");
+    background-size: cover;
+}
+
+#panel_manta {
+    position: absolute;
+    top: 530px;
+    left: 100px;
+    padding: 5px;
+    width: 200px;
+    height: 170px;
+    background-color: lightgray;
+    display: none;
+}
+
+#cherubinek {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 50px;
+    right: 200px;
+    background-image: url("Grafika/cherubinek.jpg");
+    background-size: cover;
+}
+
+#panel_cherubinek {
+    position: absolute;
+    top: 530px;
+    right: 350px;
+    padding: 5px;
+    width: 200px;
+    height: 180px;
+    background-color: lightgray;
+    display: none;
+    word-spacing: -2px;
+}
+
+#salmon {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    background-image: url("Grafika/salmon2.jpg");
+    background-size: cover;
+}
+
+#panel_salmon {
+    position: absolute;
+    top: 160px;
+    left: 400px;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    background-color: lightgray;
+    display: none;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style_charity.css">
+    <title>Home for wild!</title>
+</head>
+<body>
+    <header id="header">
+        <img id="orange_paint" src="Grafika/orange_paint.png" alt="">
+        <h1 id="h1">Home for wild!</h1>
+        <img id="arrow" src="Grafika/arrow.png" alt="arrow">
+    </header>
+
+    <section id="opis">
+        <p>"Home for wild!" to akcja charytatywna, która polega
+            na tym, że... możesz adoptować zwierzaka z naszego zoo.
+            Jeśli zapiszesz się do programu będziesz mógł: <br><br>
+            <ol>
+                <li>odwiedzać swojego podopiecznego na jego terytorium</li>
+                <li>karmić go pod okiem naszych zootechników</li>
+                <li>bawić się z nim</li>
+                <li>pogłaskać go jeśli na to pozwoli</li>
+            </ol>
+            <br><br>
+            Wystarczy, że wypełnisz poniższy formularz.
+            Rozpatrzymy Twój wniosek, w ciągu 7 dni. 
+            <br><br>
+            <p id="warning">***UWAGA! Warunki przystąpienia do projektu:</p>
+            <br><br>
+            <ol>
+                <li>uczestnik musi mieć ukończone 18 lat</li>
+                <ul>jeśli uczestnik niedawno ukończył 18 lat:
+                    <li>musi kontynuować naukę do końca liceum/technikum</li>
+                    <li>wymagana jest opinia opiekuna projektu "Home for wild in school!", na temat zgłaszanego uczestnika</li>
+                    <li>projekty szkolne trwają do 10 miesięcy</li>
+                </ul>
+                <li>jeśli uczestnik ma ukończone 18 lat oraz zakończył już edukację przynajmniej na poziomie liceum/technikum,
+                    i dostanie się do projektu, musi przyjść na wywiad adpocyjny
+                </li>
+                <li>jeśli chcesz zrezygnowac z projektu lub wyjeżdżasz na dłuższy czas, jesteś zoobowiązany
+                    poinformować o zaistniałej sytuacji zootechnika przydzielonego do zwierzaka
+                </li>
+            </ol>
+        </p>
+    </section>
+
+    <br><br>
+
+    <section id="section_formularz">
+        <form action="mailto: animaltownpila@gmail.com" method="post">
+           Imię: <input type="text" name="imie" value="" size="30"><br><br>
+           Nazwisko: <input type="text" name="imie" value="" size="30"><br><br>
+           Data urodzenia: <input type="date" name="data" id=""><br><br>
+           Wykształcenie: <br><br><label><input type="radio" name="wyksztalcenie" value="Podstawowe" id="">Podstawowe</label><br>
+                          <label><input type="radio" name="wyksztalcenie" value="Srednie" id="">Średnie</label><br>
+                          <label><input type="radio" name="wyksztalcenie" value="Wyzsze" id="">Wyższe</label><br><br>
+            <label>Pracuję: <input type="checkbox" name="praca" id=""></label><br><br>
+            <label>Uczę się: <input type="checkbox" name="nauka" id=""></label><br><br>
+            E-mail: <input type="email" name="adrE" id="" size="30"><br><br>
+            Adres zamieszkania: <input type="text" name="adrZ" id="" size="30"><br><br>
+            Numer telefonu: <input type="tel" name="telefon" id="" size="30"><br><br>
+            Wybierz zdjęcie zwierzaka: <br><br>
+            <label><input type="radio" name="animal" value="pantera" id="">Pantera<br><img id="pantera" src="Grafika/pantera.jpg" alt="pantera"></label><br><br>
+                    <label><input type="radio" name="animal" value="tygrys" id="">Tygrys<br><img id="tygrys" src="Grafika/tygrys.jpg" alt="tygrys"></label><br><br>
+                    <label><input type="radio" name="animal" value="gepard" id="">Gepard<br><img id="gepard" src="Grafika/gepard.jpg" alt="gepard"></label><br><br>
+
+            <input type="submit" value="WYŚLIJ">
+        </form>
+    </section>
+</body>
+</html>
